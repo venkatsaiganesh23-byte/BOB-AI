@@ -1,0 +1,25 @@
+# BOB-AI Virtual Assistant — Requirements
+# Install with: pip install -r requirements.txt
+
+# Core AI
+google-generativeai==0.8.3
+
+# Voice Input
+SpeechRecognition==3.10.4
+pyaudio==0.2.14         # for microphone access (Windows: pip install pipwin && pipwin install pyaudio)
+
+# Text-to-Speech
+pyttsx3==2.90
+
+# Desktop Automation
+pyautogui==0.9.54
+pyperclip==1.8.2
+
+# WhatsApp
+pywhatkit==5.4
+
+# Vision (future face detection)
+opencv-python==4.9.0.80
+
+# Web requests
+requests==2.31.0
